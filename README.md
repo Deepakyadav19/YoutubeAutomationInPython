@@ -1,2 +1,2 @@
 # YoutubeVideoDownloaderUsingSelenium
-Python script to download
+Python script to download using Selenium
