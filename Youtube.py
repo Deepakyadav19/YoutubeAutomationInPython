@@ -31,7 +31,8 @@ except Exception as e:
         print(e)
     sys.exit()
 try:
-    search_box=driver.find_element_by_xpath('//*[@id="search"]')
+    # search_box=driver.find_element_by_xpath('//*[@id="search"]')
+    search_box = driver.find_element_by_name("search_query")
     search_box.send_keys(topic)
 except Exception as e:
     print("!!!!!!!Error !!!!!!")
